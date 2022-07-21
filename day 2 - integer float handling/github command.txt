@@ -1,0 +1,16 @@
+git remote origin "repo-url"
+git add -A  (all files)  
+
+git add . (all files from current directory)
+
+
+git commit -m "this is commit"
+
+git commit -av
+
+
+git reset --soft
+
+git push origin "branch-name"
+
+git reset --hard
