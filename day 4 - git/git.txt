@@ -19,3 +19,6 @@ git commit -m "message"
 
 For push:
 git push origin branch-name
+
+For pull:
+git pull origin branch-name
