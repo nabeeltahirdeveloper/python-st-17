@@ -1,0 +1,21 @@
+For new branch:
+git checkout -b branch-name
+
+For branch shift:
+git checkout branch-name
+
+
+For clone:
+git clone (repo url)
+
+For add:
+git add .
+
+
+For commit:
+git commit -m "message"
+
+
+
+For push:
+git push origin branch-name
