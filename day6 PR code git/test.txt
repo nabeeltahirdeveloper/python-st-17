@@ -6,3 +6,4 @@ git push origin main
 git clone URL
 git reset --hard
 git reset --soft
+finish
