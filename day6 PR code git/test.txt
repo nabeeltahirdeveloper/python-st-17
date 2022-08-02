@@ -1,0 +1,8 @@
+git branch 
+git checkout -b python-test
+git add .
+git commit -m "added files"
+git push origin main
+git clone URL
+git reset --hard
+git reset --soft
