@@ -9,3 +9,15 @@ def printFunc():
 
 print('this is line 10')
 printFunc()
+
+
+def secondprintFunc():
+    print("file running")
+
+    print("functions")
+
+    print('learning')
+
+
+
+secondprintFunc()
