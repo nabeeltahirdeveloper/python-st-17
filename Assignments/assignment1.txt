@@ -1,0 +1,7 @@
+create a text file by the name of Assignment1 with python
+
+write hello world in this file
+
+copy this file into a new folder with the name of newFile
+
+delete previous file
