@@ -1,0 +1,51 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Person",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "age": {
+            "description": "Age in years",
+            "type": "integer",
+            "minimum": 2
+        }
+    },
+    "required": [
+        "name"
+    ],
+    "additionalProperties": false,
+    "dependencies": {
+        "age": {
+            "properties": {
+                "name": {
+                    "enum": [
+                        "John"
+                    ]
+                }
+            }
+        }
+    },
+    "definitions": {
+        "address": {
+            "type": "object",
+            "properties": {
+                "street_address": {
+                    "type": "string"
+                },
+                "city": {
+                    "type": "string"
+                },
+                "state": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "street_address",
+                "city",
+                "state"
+            ]
+        }
+    }
+}
