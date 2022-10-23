@@ -1,0 +1,7 @@
+Create a calculator using try catch and user input
+
+steps:
+1> Please enter the first number: 10
+2> Please enter the second number: 0
+3> Please enter the operation (+, -, *, /): -
+4> The result is: 10
